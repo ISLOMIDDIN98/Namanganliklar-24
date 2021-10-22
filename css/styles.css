@@ -4,82 +4,130 @@
 }
 
 body{
+  display: flex;
+  flex-direction: column;
+  height: 100%;
   padding: 0;
   margin: 0;
-font-family: "Rubik", sans-serif;
-font-size: 16px;
-line-height: 22px;
-background-color:#f6f6f6;
-color: #4A4B4C;
+  font-family: "Rubik", "arial" sans-serif;
+  font-size: 16px;
+  line-height: 22px;
+  background-color:#fff;
+  color: #4A4B4C;
+}
+
+.button{
+  display: inline-block;
+  padding: 13px 20px;
+  border-radius: 10px;
+  font-size: 16px;
+  line-height: normal;
+  font-weight: 500px;
+  text-decoration: none;
+  align-items: center;
+  cursor:  ;
+}
+
+.button-primary{
+  background-color: #7296EC;
+  color: #fff;
+}
+
+.button-primary:hover{
+  opacity: 0.8;
+}
+
+.button-primary:active{
+  opacity: 0.6;
 }
 
 /* Container */
 .container{
   width: 100%;
-  max-width: 1440px;
-padding-left: 120px;
-padding-right: 120px;
-margin-left: auto;
-margin-right: auto;
+  max-width: 1240px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 
-.site-header-container{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-align-items: center;
-}
+
 
 .header-top{
   display: flex;
   justify-content: space-around;
   align-items: center;
   width: 1200px;
-padding-top: 30px;
-padding-bottom: 25px;
-background-color: #EEEEEE;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: #f6f6f6;
 }
-
-.currency{
+.site-header-container{
   display: flex;
-  justify-content: space-between;
-
-}
-
-.currency-icon{
-  color: #2959CE;
-
-}
-
-.currency-balans{
-  margin-left: 0;
-  margin-right: 5px;
-}
-
-.currency-balans-P{
-  margin-left: 0;
-  margin-right: 5px;
-}
-.currency-P{
-  margin-left: 25px;
-}
-
-
-
-.site-Войти{
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
+  /* flex-direction: column;
+  justify-content: center; */
   align-items: center;
-  padding: 13px 20px;
-  background-color: #7296EC;
-  color: #fff;
-border-radius: 10px;
-line-height: 19px;
-text-decoration: none;
 }
 
+.site-header-logo{
+  display: flex;
+  padding: 8px 6px;
+  border-radius: 7px;
+  margin-right: 35px;
+  background-color: #fff;
+}
+
+.site-header-logo:hover{
+  opacity: 0.8;
+}
+
+.site-header-logo:active{
+  opacity: 0.6;
+}
+/* Currency-rates */
+.currency-rates{
+  display: flex;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+  margin-right: auto;
+  list-style: none;
+}
+
+.curency-rates-item:not(:last-child){
+  margin-right: 25px;
+}
+
+.curency-rates-type{
+  color: #2959CE;
+}
+
+/* Lang-toggle */
+
+.languages-list{
+  display: flex;
+  padding: 3px;
+  border-radius: 39px;
+  background-color: #DCE6FF;
+  margin-right: 25px;
+}
+
+.languages-item{
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  font-size: 13px;
+  line-height: 30px;
+  color: #a6a6a6;
+  text-align: center;
+  text-decoration: none;
+}
+
+.languages-item-active{
+  background-color: #fff;
+  color: #000;
+}
 
 .site-header-nav{
   display: flex;
@@ -88,8 +136,8 @@ text-decoration: none;
   width: 1200px;
   margin-top: 0;
   margin-bottom: 0px;
-padding-top: 22px;
-padding-bottom: 20px;
+  padding-top: 22px;
+  padding-bottom: 20px;
 
 }
 
@@ -99,28 +147,6 @@ padding-bottom: 20px;
 
 .main-item{
   list-style: none;
-}
-
-.languages-list{
-  display: flex;
-  justify-content:  space-between;
-  align-items: center;
-  width: 70px;
-  height: 36px;
-  background: #DCE6FF;
-  border-radius: 39px;
-}
-
-.languages-item{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: #fff;
-  width: 30px;
-  height: 30px;
-  border-radius: 50%;
-  text-decoration: none;
-
 }
 
 .site-header-hr{

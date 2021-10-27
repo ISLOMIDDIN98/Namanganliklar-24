@@ -239,6 +239,14 @@ img{
   text-decoration: none;
 }
 
+.three-headr{
+  width: 348px;
+}
+
+.six-header{
+  width: 338px;
+}
+
 .site-main-heade-link:hover{
   color: #688eee;
 }
@@ -275,6 +283,10 @@ img{
   border-radius: 5px;
 }
 
+.time{
+  margin-left: 10px;
+}
+
 /* NOTIFICATION-CTA */
 
 .notificatin-cta{
@@ -294,4 +306,52 @@ line-height: 26px;
 font-weight: 500;
 color: #000;
 
+}
+<!-- В-мире-->
+.main-section-В-мире{
+  display: flex;
+}
+.main-section-В-мире-div{
+  width: 70%;
+  float: left;
+}
+
+.main-section-В-мире-article{
+display: flex;
+flex-direction: row;
+width: 800px;
+margin-bottom: 10px;
+
+}
+
+
+
+.main-section-В-мире-img {
+  padding-right: 15px;
+
+}
+.main-section-В-мире-article-div {
+width: 535px;
+}
+.main-section-В-мире-header {
+padding-top: 0px;
+}
+.main-section-В-мире-text {
+
+}
+.site-main-list-bottom-div {
+}
+.site-main-list-bottom-address {
+}
+
+.main-section-В-мире-div-footer{
+  width: 796px;
+  padding: 17px 343px;
+  background-color: #EAEAEA;
+border-radius: 10px;
+}
+.main-aside{
+  width: 393px;
+  width: 30%;
+  float: left;
 }

@@ -309,12 +309,22 @@ img{
 }
 <!-- В-мире-->
 .main-section-В-мире{
-  display: flex;
+
 
 }
+
+.В-мире-header{
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+
+  color: #000000;
+}
+.main-section-В-мире-content{
+  display: flex;
+}
 .main-section-В-мире-div{
-  width: 70%;
-  float: left;
+
 }
 
 .main-section-В-мире-article{
@@ -335,10 +345,10 @@ img{
   width: 535px;
 }
 .main-section-В-мире-header {
-  padding-top: 0px;
+  margin: 0px;
 }
 .main-section-В-мире-text {
-  padding-top: -20px;
+margin-top: 10px;
 }
 .site-main-list-bottom-div {
 }
@@ -351,6 +361,9 @@ img{
   background-color: #EAEAEA;
   border-radius: 10px;
 
+}
+.olmos-img{
+  margin-left: 10px;1
 }
 
 .main-section-В-мире-div-footer-link{

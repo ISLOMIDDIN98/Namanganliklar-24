@@ -296,7 +296,9 @@ img{
   padding: 25px 70px 25px 25px;
   margin: 60px 75px;
   border-radius: 10px;
-  background-color: bisque;
+    background-image:url(../img/Group-35.jpg);
+  background-repeat: no-repeat;
+
 }
 
 
@@ -348,11 +350,7 @@ img{
   margin: 0px;
 }
 .main-section-В-мире-text {
-margin-top: 10px;
-}
-.site-main-list-bottom-div {
-}
-.site-main-list-bottom-address {
+  margin-top: 10px;
 }
 
 .main-section-В-мире-div-footer{
@@ -367,12 +365,12 @@ margin-top: 10px;
 }
 
 .main-section-В-мире-div-footer-link{
-   width: 110px;
+  width: 110px;
   font-weight: 500;
   font-size: 16px;
   line-height: 19px;
   color: #000;
-   text-decoration: none;
+  text-decoration: none;
 }
 .main-aside{
   width: 393px;

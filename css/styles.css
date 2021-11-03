@@ -16,12 +16,14 @@ body{
   color: #4A4B4C;
 }
 img{
-  min-width: 100%;
+  max-width: 100%;
   height: auto;
 }
+
+
 *:focus{
   outline: 2px dashed deepskyblue;
-  outline-offset: 1px;
+  outline-offset: 3px;
 }
 
 .button{
@@ -58,11 +60,15 @@ img{
 /* Container */
 .container{
   width: 100%;
-  max-width: 1240px;
-  padding-left: 20px;
-  padding-right: 20px;
+  max-width: 1440px;
+  padding-left: 120px;
+  padding-right: 120px;
   margin-left: auto;
   margin-right: auto;
+}
+
+.site-footer-container{
+  padding: 0;
 }
 
 
@@ -86,6 +92,7 @@ img{
   margin-right: 35px;
   background-color: #fff;
 }
+
 
 .site-header-logo:hover{
   opacity: 0.8;
@@ -376,4 +383,141 @@ img{
   width: 393px;
   width: 30%;
   float: left;
+}
+
+/* Footer */
+.site-footer{
+  margin-top: 100px;
+  background-color: #7297EF;
+}
+.site-footer-section {
+
+  margin-left: 221px;
+  color: #FFFFFF;
+}
+
+.site-footer-section-div{
+  width: 998px;
+  border-bottom: 1px solid #CECECE;
+  margin-bottom: 20px;
+}
+
+.site-footer-div{
+  display: flex;
+  margin: 0;
+  margin-top: 15px;
+}
+
+.footer-logo{
+  margin-top: 40px;
+}
+.site-footer-logo-link{
+  margin-top: 38px;
+  font-size: 24px;
+line-height: 28px;
+  color: #fff;
+  background-color: #7297EF;
+  text-decoration: none;
+}
+
+.site-footer-logo-link:hover{
+  background-color: #63e2eb;
+  color: #000;
+}
+
+.site-footer-logo-link:active{
+  opacity: 0.6;
+}
+
+
+.site-footer-text {
+  font-family: Rubik;
+  width: 229px;
+  margin: 0;
+  margin-right: 203px;
+    font-size: 12px;
+  line-height: 19px;
+  color: #FFFFFF;
+}
+.site-footer-list {
+list-style: none;
+margin: 0;
+padding: 0;
+margin-right: 100px;
+
+}
+
+.site-footer-list-item {
+  color: #fff;
+   margin-bottom: 20px;
+}
+
+.item-1{
+  width: 167px;
+}
+
+.item-2-1{
+  width: 224px;
+}
+.footer-list-link{
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #FFFFFF;
+    margin: 20px 0px;
+    text-decoration: none;
+}
+
+.footer-list-link:hover{
+  background-color: #63e2eb;
+  color: #000;
+}
+
+.footer-list-link:active{
+  opacity: 0.6;
+}
+
+.site-footer-footer{
+width: 998px;
+
+}
+
+
+.ijtimoiy-tarmoqlar {
+  display: flex;
+justify-content: space-between;
+}
+
+.Наши-социальные-сети{
+    width: 161px;
+   font-family: Rubik;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 23px;
+   color: #FFFFFF;
+}
+
+.ijtmoiy-tarmoqlar-list{
+display: flex;
+list-style: none;
+}
+
+
+.sahifa:not(:last-child){
+  margin-right: 25px;
+}
+.sahifa:hover {
+opacity: 0.8;
+}
+
+.sahifa:active{
+  opacity: 0.6;
+  }
+
+.ijtmoiy-tarmoq-img{
+
+  width: 25px;
 }

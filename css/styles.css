@@ -198,6 +198,14 @@ img{
   text-decoration:none ;
 }
 
+.sitenav-link:hover{
+  color: #2959CE;
+  }
+
+.sitenav-link:active{
+opacity: 0.6;
+}
+
 /* site-header-banner */
 .site-header-banner-link{
   display: flex;

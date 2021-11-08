@@ -3,6 +3,12 @@
   box-sizing: border-box;
 }
 
+
+html{
+  scroll-behavior: smooth;
+}
+
+
 body{
   display: flex;
   flex-direction: column;
@@ -448,6 +454,10 @@ height: 161px;
 width: 393px;
 background: url(.png);
 border-radius: 15px;
+}
+
+.olmos-img-Интересное-part{
+  height: 553px;
 }
 
 .main-section-В-мире-div-footer-link{

@@ -206,10 +206,10 @@ img{
 
 .sitenav-link:hover{
   color: #2959CE;
-  }
+}
 
 .sitenav-link:active{
-opacity: 0.6;
+  opacity: 0.6;
 }
 
 /* site-header-banner */
@@ -340,7 +340,7 @@ opacity: 0.6;
 }
 
 .aside-time{
-display: block;
+  display: block;
   font-family: Rubik;
   font-style: normal;
   font-weight: normal;
@@ -428,7 +428,7 @@ display: block;
 .main-section-В-мире-img {
   padding-right: 15px;
   width: 210px;
-height: 161px;
+  height: 161px;
 
 }
 .main-section-В-мире-article-div {
@@ -451,9 +451,9 @@ height: 161px;
 .olmos-img{
   margin-left: 10px;
   position: absolute;
-width: 393px;
-background: url(.png);
-border-radius: 15px;
+  width: 393px;
+  background: url(.png);
+  border-radius: 15px;
 }
 
 .olmos-img-Интересное-part{
@@ -474,6 +474,87 @@ border-radius: 15px;
   float: left;
 }
 
+/* index-article */
+.index-article-main {
+  padding-top: 10px;
+}
+.index-article-main-sections {
+  display: flex;
+}
+
+.index-article-main-icon{
+  display: flex;
+
+  align-items: center;
+}
+.index-article-icon{
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+  border-radius: 5px;
+}
+
+.index-article-icon-fvm.ru{
+  width: 86px;
+  font-family: "Rubik", "arial", sans-serif;
+  font-size: 14px;
+  line-height: 17px;
+  color: #5E5F61;
+}
+.index-article-section {
+}
+
+.index-article-main-header {
+  width: 797px;
+    font-family:"Rubik", "arial", sans-serif;
+    font-weight: 500;
+  font-size: 26px;
+  line-height: 36px;
+  color: #000000;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+.index-article-main-img {
+  width: 797px;
+  border-radius: 13px;
+}
+.index-article-main-texts {
+  width: 797px;
+font-family: "Rubik", "arial", sans-serif;
+font-size: 20px;
+line-height: 30px;
+color: #000000;
+border-bottom: 1px solid  #D2D2D2;
+}
+
+.index-article-main-text{
+  margin: 0;
+}
+.index-article-main-text:first-child{
+  margin-top: 25px;
+}
+.index-article-main-text:not(:last-child){
+  margin-bottom: 24px;
+}
+.index-article-main-text:nth-child(5){
+  padding-top: 25px;
+}
+.index-article-main-texts:last-child{
+  padding-bottom: 50px;
+}
+
+.index-article-main-bottom-heading{
+  width: 251px;
+    font-family:"Rubik", "arial", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+    color: #000000;
+}
+.index-article-main-bottom{
+  display: flex;
+}
 /* Footer */
 .site-footer{
   margin-top: 100px;
@@ -607,6 +688,6 @@ border-radius: 15px;
 }
 
 .ijtmoiy-tarmoq-img{
-display: block;
+  display: block;
   width: 25px;
 }

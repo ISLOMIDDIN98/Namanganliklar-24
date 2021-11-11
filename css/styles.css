@@ -555,6 +555,152 @@ border-bottom: 1px solid  #D2D2D2;
 .index-article-main-bottom{
   display: flex;
 }
+
+
+/* CONTACT */
+
+.main-contact {
+
+}
+.contact-hero {
+}
+.hero-contact {
+display: flex;
+}
+.contact-heading {
+    width: 173px;
+font-family:"Rubik", "arial", sans-serif;
+font-weight: 500;
+font-size: 24px;
+padding: 0;
+margin: 0;
+padding-top: 20px;
+padding-bottom: 20px;
+line-height: 28px;
+color: #000000;
+
+}
+.personal-data {
+width: 696px;
+}
+
+
+.name-and-phone-namber{
+  display: flex;
+}
+
+.name {
+padding-right: 10px;
+padding-bottom: 10px;
+}
+
+.input{
+
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: normal;
+  width: 343px;
+  height: 55px;
+  padding: 18px 20px;
+
+    background-color: #FFFFFF;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  box-sizing: border-box;
+  border-radius: 10px;
+font-size: 80%;
+    color: #000000;
+    opacity: 0.5;
+}
+.phone-namber {
+}
+
+.email{
+  padding-bottom: 10px;
+}
+.email-input {
+width: 696px;
+}
+.text {
+
+}
+
+.text-input{
+  display: block;
+  width: 100%;
+  min-height: 180px;
+  resize: vertical;
+}
+
+.N24-hr{
+  width: 444px;
+  height: 0px;
+  padding: 0;
+  margin: 0;
+margin-left: 25px;
+  border: 1px solid #D2D2D2;
+}
+.N24-data {
+  width: 494px;
+height: 310px;
+background: #F6F6F6;
+border-radius: 10px;
+margin-left: 10px;
+}
+
+.N24-data-list {
+  padding-top: 20px;
+  padding-bottom: 20px;
+padding-left: 25px;
+
+}
+
+.N24-data-list-name{
+  font-family: "Rubik", "arial", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #000000;
+  padding-bottom: 7px;
+}
+
+.N24-item{
+  font-family: "Rubik", "arial", sans-serif;
+   font-size: 16px;
+  line-height: 19px;
+   color: #000000;
+   padding-top: 7px;
+   text-decoration: none;
+}
+.email-adress {
+  padding-top: 20px;
+}
+.email-name {
+}
+.phone {
+}
+.phone-nambr {
+}
+.adress {
+}
+
+.button-div{
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+}
+.N24-data-button{
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 17px 30px;
+    width: 145px;
+  height: 53px;
+    background: #7297EF;
+  border-radius: 10px;
+}
+
 /* Footer */
 .site-footer{
   margin-top: 100px;

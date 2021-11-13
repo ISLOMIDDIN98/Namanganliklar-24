@@ -66,9 +66,9 @@ img{
 /* Container */
 .container{
   width: 100%;
-  max-width: 1440px;
-  padding-left: 120px;
-  padding-right: 120px;
+  max-width: 1240px;
+  padding-left: 20px;
+  padding-right: 20px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -128,6 +128,7 @@ img{
 /* Global-search-form */
 .search-form{
   margin-right: 25px;
+
 }
 
 .search-form-text{
@@ -141,7 +142,15 @@ img{
   border-radius: 60px;
   color:  #8D8D8D;
   background-color: #fff;
+  background-image: url(../img/search.icon.svg);
+  background-repeat:no-repeat;
+  background-position: center;
 }
+
+.search-form-text::before{
+
+}
+
 
 /* Lang-toggle */
 
@@ -495,10 +504,14 @@ img{
 }
 
 .index-article-icon-fvm.ru{
+  display: block;
   width: 86px;
-  font-family: "Rubik", "arial", sans-serif;
-  font-size: 14px;
+    font-size: 14px;
   line-height: 17px;
+
+}
+
+.index-article-icon-text-collor{
   color: #5E5F61;
 }
 .index-article-section {
@@ -607,9 +620,13 @@ padding-bottom: 10px;
   border: 1px solid rgba(0, 0, 0, 0.2);
   box-sizing: border-box;
   border-radius: 10px;
-font-size: 80%;
+
     color: #000000;
-    opacity: 0.5;
+
+}
+
+.input::placeholder{
+  opacity: 0.5;
 }
 .phone-namber {
 }
@@ -645,6 +662,7 @@ height: 310px;
 background: #F6F6F6;
 border-radius: 10px;
 margin-left: 10px;
+font-size: normal;
 }
 
 .N24-data-list {
@@ -698,7 +716,9 @@ padding-left: 25px;
     width: 145px;
   height: 53px;
     background: #7297EF;
+    color: #fff;
   border-radius: 10px;
+  border: 0px;
 }
 
 /* Footer */

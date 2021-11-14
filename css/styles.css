@@ -125,6 +125,7 @@ img{
   color: #2959CE;
 }
 
+
 /* Global-search-form */
 .search-form{
   margin-right: 25px;
@@ -144,7 +145,7 @@ img{
   background-color: #fff;
   background-image: url(../img/search.icon.svg);
   background-repeat:no-repeat;
-  background-position: center;
+  background-position: left 15px center;
 }
 
 .search-form-text::before{
@@ -686,6 +687,7 @@ padding-left: 25px;
   font-family: "Rubik", "arial", sans-serif;
    font-size: 16px;
   line-height: 19px;
+  font-style: normal;
    color: #000000;
    padding-top: 7px;
    text-decoration: none;

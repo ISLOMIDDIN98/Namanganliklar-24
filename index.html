@@ -15,6 +15,12 @@
   <!-- styles -->
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/styles.css">
+
+  <!-- <link rel="stylesheet" href="css/min.css"> -->
+
+<link rel="stylesheet" href="index-list.html">
+<link rel="stylesheet" href="index-article.html">
+<link rel="stylesheet" href="contact.html">
 </head>
 <body>
   <!-- site-header -->
@@ -23,13 +29,13 @@
     <div class="header-top">
       <div class=" site-header-container container ">
         <a class="site-header-logo" href="index.html">
-          <img class="logo-N24-img" src="img/logo-N24.svg" alt="N24" width="264"  height="28">
+          <img class="logo-N24-img" src="img/logo-N24.svg" alt="site-logo" width="264"  height="28">
         </a>
         <!-- CARENCY-RATES -->
         <ul class="currency-rates">
           <li class="curency-rates-item">
             <b class="curency-rates-type"> $</b>
-            <span class="curency-rates-value">$ 10137.2</span>
+            <span class="curency-rates-value">10137.2</span>
           </li>
           <li class="curency-rates-item">
             <b class="curency-rates-type">P</b>
@@ -39,7 +45,7 @@
 
         <!-- Global-search-form -->
         <form class="search-form" action="#" method="get">
-          <input class="search-form-text" type="search" placeholder="Поиск" aria-label="Поиск" required>
+          <span class="search-icon"><input class="search-form-text" type="search" placeholder="Поиск" aria-label="Поиск" required></span>
         </form>
         <!-- Lang-toggle -->
         <div class="languages-list">
@@ -55,16 +61,17 @@
     <div class="container">
       <nav class="sitenav">
         <ul class="sitenav-list">
-          <li class="sitenav-item"><a class="sitenav-link" href="#" >Главное</a></li>
-          <li class="sitenav-item"><a class="sitenav-link" href="#" >Интересное</a></li>
+          <li class="sitenav-item"><a class="sitenav-link" href="index.html" >Главное</a></li>
+          <li class="sitenav-item"><a class="sitenav-link" href="index-list.html" >Интересное</a></li>
           <li class="sitenav-item"><a class="sitenav-link" href="#" >Экономика</a></li>
           <li class="sitenav-item"><a class="sitenav-link" href="#" >Политика</a></li>
           <li class="sitenav-item"><a class="sitenav-link" href="#" >Общество</a></li>
-          <li class="sitenav-item"><a class="sitenav-link" href="#" >Технологии</a></li>
+          <li class="sitenav-item"><a class="sitenav-link" href="article.html" >Технологии</a></li>
           <li class="sitenav-item"><a class="sitenav-link" href="#" >Спорт</a></li>
           <li class="sitenav-item"><a class="sitenav-link" href="#" >Культура</a></li>
           <li class="sitenav-item"><a class="sitenav-link" href="#" >Происшествия</a></li>
           <li class="sitenav-item"><a class="sitenav-link" href="#" >Наука</a></li>
+
         </ul>
       </nav>
 
@@ -91,7 +98,7 @@
             <img class="site-main-img" src="img/Германия.jpg" alt=" " width="360" height="165" srcset="img/Германия.jpg 1x, img/Германия@2x.jpg 2x">
             <footer class="site-main-list-bottom">
               <img class="site-main-list-bottom-icon" src="img/ИА-Красная-Весна-icon.jpg" alt="KB" width="20" height="20" srcset="img/ИА-Красная-Весна-icon.jpg 1x, img/ИА-Красная-Весна-icon@2x.jpg 2x">
-              <div class="site-main-list-bottom-div"><span class="site-main-list-bottom-address">ИА Красная Весна<time class="time">15:55 </time></span></div>
+              <div class="site-main-list-bottom-div"><span class="site-main-list-bottom-address">ИА Красная Весна<time datatime="2021-11-14 10:10" class="time">15:55 </time></span></div>
             </footer>
           </article>
           <article class="site-main-item article-card">
@@ -100,16 +107,16 @@
             <img class="site-main-img" src="img/пшеница.jpg" alt=" " width="360" height="165" srcset="img/пшеница.jpg 1x, img/пшеница@2x.jpg 2x">
             <footer class="site-main-list-bottom">
               <img class="site-main-list-bottom-icon" src="img/Газета.jpg" alt=""  srcset="img/Газета.jpg 1x, img/Газета@2x.jpg 2x">
-              <div class="site-main-list-bottom-div"><span class="site-main-list-bottom-address">Газета.Ru <time class="time">12:54</time></span></div>
+              <div class="site-main-list-bottom-div"><span class="site-main-list-bottom-address">Газета.Ru <time datatime="2021-11-14 10:10" class="time">12:54</time></span></div>
             </footer>
           </article >
           <article class="site-main-item article-card">
-            <h3 class="site-main-header"><a class="site-main-heade-link three-header" href="#">Baidu запустила публичный сервис роботакси Apollo Go в Шанхае</a></h3>
+            <h3 class="site-main-header three-header"><a class="site-main-heade-link " href="#">Baidu запустила публичный сервис роботакси Apollo Go в Шанхае</a></h3>
             <p class="site-main-text">Автопарк Baidu состоит из модифицированных электромобилей EV... </p>
             <img class="site-main-img" src="img/Apollo-Go.jpg" alt=" " width="360" height="165" srcset="img/Apollo-Go.jpg 1x, img/Apollo-Go@2x.jpg 2x" >
             <footer class="site-main-list-bottom">
               <img class="site-main-list-bottom-icon" src="img/Хайтек.jpg" alt="" width="20" height="20" srcset=" img/Хайтек.jpg 1x, img/Хайтек@2x.jpg 2x">
-              <div class="site-main-list-bottom-div"><span class="site-main-list-bottom-address">Хайтек+ <time class="time">13:44</time></span></div>
+              <div class="site-main-list-bottom-div"><span class="site-main-list-bottom-address">Хайтек+ <time datatime="2021-11-14 10:10" class="time">13:44</time></span></div>
             </footer>
           </article>
           <article class="site-main-item article-card">
@@ -118,7 +125,7 @@
             <img class="site-main-img" src="img/iphone-13.jpg" alt=" " width="360" height="165" srcset="img/iphone-13.jpg 1x, img/iphone-13@2x.jpg 2x" >
             <footer class="site-main-list-bottom">
               <img class="site-main-list-bottom-icon" src="img/Digger.ru.jpg" alt="" width="20" height="20" srcset="img/Digger.ru.jpg 1x, img/Digger.ru@2x.jpg  2x">
-              <div class="site-main-list-bottom-div"><span class="site-main-list-bottom-address">Digger.ru <time class="time">14:25</time></span></div>
+              <div class="site-main-list-bottom-div"><span class="site-main-list-bottom-address">Digger.ru <time datatime="2021-11-14 10:10" class="time">14:25</time></span></div>
             </footer>
           </article>
           <article class="site-main-item article-card">
@@ -127,7 +134,7 @@
             <img class="site-main-img" src="img/SARS-CoV-2.jpg" alt=" " width="360" height="165" srcset="img/SARS-CoV-2.jpg 1x, img/SARS-CoV-2@2x.jpg 2x">
             <footer class="site-main-list-bottom">
               <img class="site-main-list-bottom-icon" src="img/Lenta.ru.jpg" alt="" width="20" height="20" srcset="img/Lenta.ru.jpg 1x, img/Lenta.ru@2x.jpg 2x">
-              <div class="site-main-list-bottom-div"><span class="site-main-list-bottom-address">Lenta.ru <time class="time">10:54</time></span></div>
+              <div class="site-main-list-bottom-div"><span class="site-main-list-bottom-address">Lenta.ru <time datatime="2021-11-14 10:10" class="time">10:54</time></span></div>
             </footer>
           </article>
           <article class="site-main-item article-card">
@@ -136,7 +143,7 @@
             <img class="site-main-img" src="img/Китайская-марка-JAC.jpg" alt=" "  width="360" height="165" srcset="img/Китайская-марка-JAC.jpg 1x, img/Китайская-марка-JAC@2x.jpg 2x">
             <footer class="site-main-list-bottom">
               <img class="site-main-list-bottom-icon" src="img/Тарантас.jpg" alt="" width="20" height="20" srcset="img/Тарантас.jpg 1x, img/Тарантас@2x.jpg 2x">
-              <div class="site-main-list-bottom-div"><span class="site-main-list-bottom-address">Тарантас Ньюс <time class="time">10:44</time></span></div>
+              <div class="site-main-list-bottom-div"><span class="site-main-list-bottom-address">Тарантас Ньюс <time datatime="2021-11-14 10:10" class="time">10:44</time></span></div>
             </footer>
           </article>
         </div>
@@ -164,7 +171,7 @@
                 <p class="main-section-В-мире-text site-main-text">Чартерный рейс с 244 китайскими студентами вылетел из города центрального подчинения Чунцина на юго-западе Китая в британский Манчестер...</p>
                 <footer class="site-main-list-bottom">
                   <img class="site-main-list-bottom-icon" src="img/ИА-Красная-Весна-icon.jpg" alt="KB" width="20" height="20" srcset="img/ИА-Красная-Весна-icon.jpg 1x, img/ИА-Красная-Весна-icon@2x.jpg 2x">
-                  <div class="site-main-list-bottom-div"><span class="site-main-list-bottom-address">ИА Красная Весна<time class="time"> 12:25 </time>
+                  <div class="site-main-list-bottom-div"><span class="site-main-list-bottom-address">ИА Красная Весна<time datatime="2021-11-14 10:10" class="time"> 12:25 </time>
                   </span></div>
                 </footer>
               </div>
@@ -176,7 +183,7 @@
                 <p class="main-section-В-мире-text site-main-text">БЕРЛИН, 19 сентября. / ТАСС/. Знаменитая фабрика по производству плюшевых игрушек в городе Кобург (федеральная земля Бавария) изготовила уникального...</p>
                 <footer class="site-main-list-bottom">
                   <img class="site-main-list-bottom-icon" src="img/ТАСС.jpg" alt="KB" width="20" height="20" srcset="img/ТАСС.jpg 1x, img/ТАСС@2x.jpg 2x">
-                  <div class="site-main-list-bottom-div"><span class="site-main-list-bottom-address">ТАСС<time class="time"> 12:35 </time>
+                  <div class="site-main-list-bottom-div"><span class="site-main-list-bottom-address">ТАСС<time datatime="2021-11-14 10:10" class="time"> 12:35 </time>
                   </span></div>
                 </footer>
               </div>
@@ -188,7 +195,7 @@
                 <p class="main-section-В-мире-text site-main-text">За последние месяцы инвесторы в китайский рынок пережили настоящее потрясение — из-за ужесточения регулирования технологического сектора и критики некоторых...</p>
                 <footer class="site-main-list-bottom">
                   <img class="site-main-list-bottom-icon" src="img/РБК.jpg" alt="KB" width="20" height="20" srcset="img/РБК.jpg 1x, img/РБК@2x.jpg 2x">
-                  <div class="site-main-list-bottom-div"><span class="site-main-list-bottom-address">РБК Инвестиции<time class="time"> 09:35 </time>
+                  <div class="site-main-list-bottom-div"><span class="site-main-list-bottom-address">РБК Инвестиции<time datatime="2021-11-14 10:10" class="time"> 09:35 </time>
                   </span></div>
                 </footer>
               </div>
@@ -200,7 +207,7 @@
                 <p class="main-section-В-мире-text site-main-text">Не только Франция, которая лишилась многомиллиардного контракта с Австралий, осталась недовольна созданием трехстороннего оборонного альянса AUKUS, пишет Anna-News.info</p>
                 <footer class="site-main-list-bottom">
                   <img class="site-main-list-bottom-icon" src="img/Solenka.info.jpg" alt="KB" width="20" height="20" srcset="img/Solenka.info.jpg 1x, img/Solenka.info@2x.jpg 2x">
-                  <div class="site-main-list-bottom-div"><span class="site-main-list-bottom-address">Solenka.info <time class="time"> 19:43 </time>
+                  <div class="site-main-list-bottom-div"><span class="site-main-list-bottom-address">Solenka.info <time datatime="2021-11-14 10:10" class="time"> 19:43 </time>
                   </span></div>
                 </footer>
               </div>
@@ -209,15 +216,15 @@
           </div>
           <div class="main-aside">
             <article class="site-main-item article-card">
-              <h2>Главное</h2>
-              <h3 class="site-main-header"><a class="site-main-heade-link" href="#">В Фергане создадут узбекско-пакистанский университет</a></h3>
-              <div class="site-main-list-bottom-div"><span class="site-main-list-bottom-address">Sputnik Узбекистан <time class="time">14:09 </time></span></div>
-              <h3 class="site-main-header"><a class="site-main-heade-link" href="#">Узбекистан утвердил соглашение о содействии занятости в странах СНГ</a></h3>
-              <div class="site-main-list-bottom-div"><span class="site-main-list-bottom-address">ИА Красная Весна 10:19 <time class="time">10:19 </time></span></div>
-              <h3 class="site-main-header"><a class="site-main-heade-link" href="#">В Узбекистане увеличиваются очереди за автомобилями UzAuto</a></h3>
-              <div class="site-main-list-bottom-div"><span class="site-main-list-bottom-address">Северная газета (Армянск) 13:50<time class="time">13:50</time></span></div>
-              <h3 class="site-main-header"><a class="site-main-heade-link" href="#">В Узбекистане увеличиваются очереди за автомобилями UzAuto</a></h3>
-              <div class="site-main-list-bottom-div"><span class="site-main-list-bottom-address">Северная газета (Армянск) 13:50 <time class="time">13:50</time></span></div>
+              <h2 class="aside-header">Главное</h2>
+              <h3 class="site-main-header"><a class="site-main-article-link" href="#">В Фергане создадут узбекско-пакистанский университет</a></h3>
+              <div class="site-main-list-bottom-div"><span class="site-main-list-bottom-address aside-time">Sputnik Узбекистан <time datatime="2021-11-14 10:10" class="time">14:09 </time></span></div>
+              <h3 class="site-main-header"><a class="site-main-article-link" href="#">Узбекистан утвердил соглашение о содействии занятости в странах СНГ</a></h3>
+              <div class="site-main-list-bottom-div"><span class="site-main-list-bottom-address aside-time">ИА Красная Весна<time datatime="2021-11-14 10:10" class="time">10:19 </time></span></div>
+              <h3 class="site-main-header"><a class="site-main-article-link" href="#">В Узбекистане увеличиваются очереди за автомобилями UzAuto</a></h3>
+              <div class="site-main-list-bottom-div"><span class="site-main-list-bottom-address aside-time">Северная газета (Армянск)<time datatime="2021-11-14 10:10" class="time">13:50</time></span></div>
+              <h3 class="site-main-header"><a class="site-main-article-link" href="#">Минтуризма опровергло приостановку выплат за шаги</a></h3>
+              <div class="site-main-list-bottom-div"><span class="site-main-list-bottom-address aside-time">Северная газета (Армянск) <time datatime="2021-11-14 10:10" class="time">14:32</time></span></div>
             </article>
             <aside><a href="http://olmosresidence.uz/" target="_blank"><img class="olmos-img" src="img/30-sentabr.jpg" alt="" width="393" height="338" srcset="img/30-sentabr.jpg 1x, img/30-sentabr@2x.jpg 2x"></a></aside>
           </div>
@@ -232,7 +239,7 @@
       <section class="site-footer-section">
         <div class="site-footer-section-div">
           <div class="footer-logo">
-            <a class="site-footer-logo-link" href="index.html">NAMANGANLIKLAR 24</a>
+            <a class="site-footer-logo-link" href="index.html"><img src="img/logo-footer-img.svg" alt="site-logo" width="264" height="28"></a>
           </div>
           <div class="site-footer-div">
             <div>
@@ -243,7 +250,7 @@
 
             <ul class="site-footer-list">
               <li class="site-footer-list-item item-1"><a class="footer-list-link" href="#">Информация о сайте</a></li>
-              <li class="site-footer-list-item"><a class="footer-list-link" href="#">Напишите нам</a></li>
+              <li class="site-footer-list-item"><a class="footer-list-link" href="contact.html">Напишите нам</a></li>
               <li class="site-footer-list-item"><a class="footer-list-link" href="#">Реклама</a> </li>
               <li class="site-footer-list-item"><a class="footer-list-link" href="#">Прислать новость</a> </li>
             </ul>
@@ -263,10 +270,10 @@
           <div class="ijtimoiy-tarmoqlar" >
             <span class="Наши-социальные-сети">Наши социальные сети</span>
             <ul class="ijtmoiy-tarmoqlar-list">
-              <li class="facebook sahifa "><a href="https://ko-kr.facebook.com/namanganliklar24-110305797410261/" target="_blank"><img class="ijtmoiy-tarmoq-img" src="img/facebook.svg" alt="facebook" width="25" height="25"></a></li>
-              <li class="instagram sahifa  "><a href="https://www.instagram.com/accounts/login/" target="_blank"><img class="ijtmoiy-tarmoq-img" src="img/instagram.svg" alt="instagram" width="25" height="25"></a></li>
-              <li class="telegram sahifa "><a href="https://t.me/Namanganliklar" target="_blank"><img class="ijtmoiy-tarmoq-img" src="img/telegram.svg" alt="telegram" width="25" height="25"></a></li>
-              <li class="YouTube sahifa  "><a href="https://www.youtube.com/c/Namanganliklar24/featured" target="_blank"><img class="ijtmoiy-tarmoq-img" src="img/youtube.svg" alt="youtube" width="25" height="17"></a></li>
+              <li class="facebook sahifa "><a  class="" href="https://ko-kr.facebook.com/namanganliklar24-110305797410261/" target="_blank"><img class="ijtmoiy-tarmoq-img" src="img/facebook.svg" alt="facebook" width="25" height="25"></a></li>
+              <li class="instagram sahifa  "><a class="" href="https://www.instagram.com/accounts/login/" target="_blank"><img class="ijtmoiy-tarmoq-img" src="img/instagram.svg" alt="instagram" width="25" height="25"></a></li>
+              <li class="telegram sahifa "><a class="" href="https://t.me/Namanganliklar" target="_blank"><img class="ijtmoiy-tarmoq-img" src="img/telegram.svg" alt="telegram" width="25" height="25"></a></li>
+              <li class="YouTube sahifa  "><a class="" href="https://www.youtube.com/c/Namanganliklar24/featured" target="_blank"><img class="ijtmoiy-tarmoq-img" src="img/youtube.svg" alt="youtube" width="25" height="17"></a></li>
             </ul>
           </div>
         </div>

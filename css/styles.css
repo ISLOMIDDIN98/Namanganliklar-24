@@ -25,7 +25,7 @@ body{
   height: 100%;
   padding: 0;
   margin: 0;
-  font-family: "Rubik", "arial", sans-serif;
+  font-family: "Rubik", "Arial", sans-serif;
   font-size: 16px;
   line-height: 22px;
   background-color:#fff;
@@ -420,27 +420,27 @@ img{
   color: #000;
 
 }
-<!-- В-мире-->
-.main-section-В-мире{
+<!-- global-->
+.global-news{
 
 
 }
 
-.В-мире-header{
+.global-header{
   font-weight: 500;
   font-size: 24px;
   line-height: 28px;
 
   color: #000000;
 }
-.main-section-В-мире-content{
+.global-news-content{
   display: flex;
 }
-.main-section-В-мире-div{
+.global-news-div{
 
 }
 
-.main-section-В-мире-article{
+.global-news-article{
 
   flex-direction: row;
   width: 800px;
@@ -450,23 +450,23 @@ img{
 
 
 
-.main-section-В-мире-img {
+.global-news-img {
   padding-right: 15px;
   width: 210px;
   height: 161px;
 
 }
-.main-section-В-мире-article-div {
+.global-news-article-div {
   width: 535px;
 }
-.main-section-В-мире-header {
+.global-news-header {
   margin: 0px;
 }
-.main-section-В-мире-text {
+.global-news-text {
   margin-top: 10px;
 }
 
-.main-section-В-мире-div-footer{
+.global-news-div-footer{
   width: 796px;
   padding: 17px 343px;
   background-color: #EAEAEA;
@@ -485,7 +485,7 @@ img{
   height: 553px;
 }
 
-.main-section-В-мире-div-footer-link{
+.global-news-div-footer-link{
   width: 110px;
   font-weight: 500;
   font-size: 16px;
@@ -838,12 +838,12 @@ img{
 }
 
 
-.ijtimoiy-tarmoqlar {
+.social-networks {
   display: flex;
   justify-content: space-between;
 }
 
-.Наши-социальные-сети{
+.list-social-networks{
   width: 161px;
 
   font-style: normal;
@@ -853,7 +853,7 @@ img{
   color: #fff;
 }
 
-.ijtmoiy-tarmoqlar-list{
+.social-networks-list{
   display: flex;
   list-style: none;
 }
@@ -870,7 +870,7 @@ img{
   opacity: 0.6;
 }
 
-.ijtmoiy-tarmoq-img{
+.social-networks-img{
   display: block;
   width: 25px;
 }

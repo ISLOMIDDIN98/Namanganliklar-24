@@ -36,6 +36,17 @@ img{
   height: auto;
 }
 
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
 
 *:focus{
   outline: 2px dashed deepskyblue;
@@ -366,18 +377,13 @@ img{
 
 .aside-time{
   display: block;
-
   font-style: normal;
   font-weight: normal;
   font-size: 13px;
   line-height: 15px;
-
   color: #5E5F61;
 }
 
-.site-main-list-bottom-div{
-
-}
 .site-main-list-bottom-div:not(:last-child){
   border-bottom: 1px solid  #D2D2D2;
 }
@@ -451,7 +457,7 @@ img{
 
 
 .global-news-img {
-  padding-right: 15px;
+  margin-right: 15px;
   width: 210px;
   height: 161px;
 
@@ -520,22 +526,17 @@ img{
 }
 
 .index-article-icon-fvm.ru{
-  display: block;
   width: 86px;
-  font-size: 14px;
-  line-height: 17px;
-
 }
 
 .index-article-icon-text-collor{
   color: #5E5F61;
-}
-.index-article-section {
+  font-size: 14px;
+  line-height: 17px;
 }
 
 .index-article-main-header {
   width: 797px;
-
   font-weight: 500;
   font-size: 26px;
   line-height: 36px;
@@ -614,7 +615,7 @@ img{
 }
 
 
-.name-and-phone-namber{
+.name-and-phone-number{
   display: flex;
 }
 
@@ -682,10 +683,17 @@ img{
 }
 
 .N24-data-list {
+  display: flex;
+  flex-direction: column;
+  width: 444px;
   padding-top: 20px;
   padding-bottom: 20px;
-  padding-left: 25px;
+  margin-left: 25px;
 
+}
+
+.N24-data-list:not(:last-child){
+  border-bottom:1px solid #d2d2d2;
 }
 
 .N24-data-list-name{
@@ -721,14 +729,11 @@ img{
 
 .button-div{
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
   padding-top: 20px;
 }
-.N24-data-button{
-  display: flex;
-  justify-content: center;
-  flex-direction: row;
-  align-items: flex-start;
+
+.send{
   padding: 17px 30px;
   width: 145px;
   height: 53px;
@@ -823,20 +828,9 @@ img{
   text-decoration: none;
 }
 
-.footer-list-link:hover{
-  background-color: #63e2eb;
-  color: #000;
-}
-
-.footer-list-link:active{
-  opacity: 0.6;
-}
-
 .site-footer-footer{
   width: 998px;
-
 }
-
 
 .social-networks {
   display: flex;
